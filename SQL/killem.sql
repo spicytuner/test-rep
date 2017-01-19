@@ -1,0 +1,16 @@
+alter system kill session '24,26935';
+alter system kill session '37,59838';
+alter system kill session '42,12935';
+alter system kill session '74,25253';
+alter system kill session '77,49752';
+alter system kill session '80,34000';
+alter system kill session '108,30632';
+alter system kill session '130,27813';
+alter system kill session '139,57256';
+alter system kill session '149,3464';
+alter system kill session '156,60373';
+alter system kill session '167,63565';
+alter system kill session '190,55771';
+alter system kill session '227,43087';
+alter system kill session '241,34047';
+alter system kill session '264,44302';

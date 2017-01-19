@@ -1,0 +1,16 @@
+analyze table CHINOOK_APRIL_2008 compute statistics;
+analyze table CHINOOK_AUGUST_2008 compute statistics;
+analyze table CHINOOK_BILL_APRIL_2008 compute statistics;
+analyze table CHINOOK_BILL_AUGUST_2008 compute statistics;
+analyze table CHINOOK_BILL_FEBRUARY_2008 compute statistics;
+analyze table CHINOOK_BILL_JANUARY_2008 compute statistics;
+analyze table CHINOOK_BILL_JULY_2008 compute statistics;
+analyze table CHINOOK_BILL_JUNE_2008 compute statistics;
+analyze table CHINOOK_BILL_MARCH_2008 compute statistics;
+analyze table CHINOOK_BILL_MAY_2008 compute statistics;
+analyze table CHINOOK_FEBRUARY_2008 compute statistics;
+analyze table CHINOOK_JANUARY_2008 compute statistics;
+analyze table CHINOOK_JULY_2008 compute statistics;
+analyze table CHINOOK_JUNE_2008 compute statistics;
+analyze table CHINOOK_MARCH_2008 compute statistics;
+analyze table CHINOOK_MAY_2008 compute statistics;

@@ -1,0 +1,7 @@
+analyze index metaserv31.ip_allocation_events_cmmac validate structure;
+analyze index metaserv31.IP_ALLOCATION_EVENTS_IND01 validate structure;
+analyze index metaserv31.IP_ALLOCATION_EVENTS_CMMAC validate structure;
+analyze index metaserv31.SUBSCRIBER_EVENTS_IND01 validate structure;
+analyze index metaserv31.SUBSCRIBER_EVENTS_OLD_VALUE validate structure;
+analyze index metaserv31.SUBSCRIBER_EVENTS_NEW_VALUE validate structure;
+analyze index metaserv31.METASERV_EVENTS_IND01 validate structure;

@@ -1,0 +1,14 @@
+exec dbms_stats.gather_table_stats('BBO','CRMOPEN_ITEM_INVOICE',estimate_percent=>10);
+exec dbms_stats.gather_table_stats('BBO','LOCNPA',estimate_percent=>10);
+exec dbms_stats.gather_table_stats('BBO','RTEDDL',estimate_percent=>10);
+exec dbms_stats.gather_table_stats('BBO','CRMSERVICE_DETAIL',estimate_percent=>10);
+exec dbms_stats.gather_table_stats('BBO','RTERDD',estimate_percent=>10);
+exec dbms_stats.gather_table_stats('BBO','CRMBILLING_IDX',estimate_percent=>10);
+exec dbms_stats.gather_table_stats('BBO','RTEDDD',estimate_percent=>10);
+exec dbms_stats.gather_table_stats('BBO','CRMTRANSACTION',estimate_percent=>10);
+exec dbms_stats.gather_table_stats('BBO','RTEDEC',estimate_percent=>10);
+exec dbms_stats.gather_table_stats('BBO','CRMTRANSACTION_IDX',estimate_percent=>10);
+exec dbms_stats.gather_table_stats('BBO','CRMOPEN_ITEM_IDX',estimate_percent=>10);
+exec dbms_stats.gather_table_stats('BBO','LOCZIP',estimate_percent=>10);
+exec dbms_stats.gather_table_stats('BBO','ZZ_UU_LOCAL_20111015',estimate_percent=>10);
+exec dbms_stats.gather_table_stats('BBO','CRMADDRESS_FORMAT_USER_DEFINED',estimate_percent=>10);

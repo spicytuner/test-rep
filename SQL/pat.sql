@@ -1,0 +1,12 @@
+create table APPDEV_BOIS_DB1.system_field as select * from test_template_system_field;
+create table APPDEV_BSMP_PORTAL_DB0.system_field as select * from test_template_system_field;
+create table APPDEV_ELMER_DB0.system_field as select * from test_template_system_field;
+create table APPDEV_METAVIEW_LITE_DB0.system_field as select * from test_template_system_field;
+create table APPDEV_MINOR_PROJECTS_DB.system_field as select * from test_template_system_field;
+create table APPDEV_NODEHEALTH_DB0.system_field as select * from test_template_system_field;
+create table UPGRADED_PROJECTS_REMEDY_DB.system_field as select * from test_template_system_field;
+create table APPDEV_ROUNDUP_DB0.system_field as select * from test_template_system_field;
+create table APPDEV_SEM_MONITORING_DB.system_field as select * from test_template_system_field;
+create table APPDEV_SIMULTANEOUS_CALLS_TOO0.system_field as select * from test_template_system_field;
+create table APPDEV_SMART_DB.system_field as select * from test_template_system_field;
+create table APPDEV_TWODOT_DB0.system_field as select * from test_template_system_field;
