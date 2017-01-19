@@ -1,0 +1,69 @@
+truncate table cust_backup
+               *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+drop table cust_backup
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table created.
+
+
+Table truncated.
+
+
+Table dropped.
+
+
+Table created.
+
+
+Commit complete.
+
+
+Grant succeeded.
+
+create public synonym cust for masterm.cust
+                      *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+
+
+Index created.
+
+
+Index created.
+
+
+Index analyzed.
+
+
+Index analyzed.
+
+
+Table analyzed.
+
+
+0 rows updated.
+
+
+Commit complete.
+
+
+6 rows updated.
+
+
+Commit complete.
+
+
+81660 rows updated.
+
+
+Commit complete.
+

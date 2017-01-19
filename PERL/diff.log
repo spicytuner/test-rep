@@ -1,0 +1,9 @@
+from verify_node a, account_node_status b
+     *
+ERROR at line 2:
+ORA-01013: user requested cancel of current 
+operation 
+
+
+
+SQL> exit

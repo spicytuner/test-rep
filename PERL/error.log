@@ -1,0 +1,442 @@
+
+SQL*Loader: Release 9.2.0.4.0 - Production on Fri Jun 8 19:25:59 2007
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+Control File:   /home/jsoria/SCRIPTS/PERL/cust_import.ctl
+Data File:      cust_remedy.dat
+  Bad File:     /home/jsoria/SCRIPTS/PERL/cust_remedy.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50000
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table CUST_REMEDY, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ACCOUNTNUMBER                       FIRST     *   ,  O(") CHARACTER            
+NODE                                 NEXT     *   ,  O(") CHARACTER            
+LASTNAME                             NEXT     *   ,  O(") CHARACTER            
+FIRSTNAME                            NEXT     *   ,  O(") CHARACTER            
+PHONE                                NEXT     *   ,  O(") CHARACTER            
+STREET1                              NEXT     *   ,  O(") CHARACTER            
+STREET2                              NEXT     *   ,  O(") CHARACTER            
+CITY                                 NEXT     *   ,  O(") CHARACTER            
+STATE                                NEXT     *   ,  O(") CHARACTER            
+ZIP                                  NEXT     *   ,  O(") CHARACTER            
+LAST_CHANGED                         NEXT     *   ,  O(") DATE MM/DD/YYYY      
+VIDEO                                NEXT     *   ,  O(") CHARACTER            
+DATA                                 NEXT     *   ,  O(") CHARACTER            
+BDP                                  NEXT     *   ,  O(") CHARACTER            
+UNIT_ID                              NEXT     *   ,  O(") CHARACTER            
+SERIAL_ID                            NEXT     *   ,  O(") CHARACTER            
+EMAIL                                NEXT     *   ,  O(") CHARACTER            
+
+Record 1: Rejected - Error on table CUST_REMEDY, column STATE.
+ORA-01401: inserted value too large for column
+
+Record 2351: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 2438: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 2475: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 2905: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 3072: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 3622: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 3723: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 3808: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 4477: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 6321: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 7029: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 17849: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 17962: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 20189: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 20195: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 22293: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 24359: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 25634: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 28453: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 35416: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 39711: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 39924: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 40385: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 41319: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 42061: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 42869: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 43066: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 43618: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 51915: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 53543: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 55221: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 55374: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 59642: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 59645: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 59651: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 60390: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 70017: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 76727: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 77923: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 78204: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 78210: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 91699: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 91811: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 99382: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 99383: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 99384: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 103153: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 106615: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 106769: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 107474: Rejected - Error on table CUST_REMEDY, column EMAIL.
+ORA-01401: inserted value too large for column
+
+Record 112129: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 112239: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 124979: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 127852: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 128346: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 129775: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 131244: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 131457: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 133685: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 141415: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 144079: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 144135: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 144536: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 145448: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 146705: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 148262: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 148651: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 150133: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 150144: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 150147: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 155068: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 155094: Rejected - Error on table CUST_REMEDY, column SERIAL_ID.
+ORA-01401: inserted value too large for column
+
+Record 155229: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 155376: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 155428: Rejected - Error on table CUST_REMEDY, column SERIAL_ID.
+ORA-01401: inserted value too large for column
+
+Record 155470: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 155537: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 155673: Rejected - Error on table CUST_REMEDY, column SERIAL_ID.
+ORA-01401: inserted value too large for column
+
+Record 155728: Rejected - Error on table CUST_REMEDY, column SERIAL_ID.
+ORA-01401: inserted value too large for column
+
+Record 156026: Rejected - Error on table CUST_REMEDY, column SERIAL_ID.
+ORA-01401: inserted value too large for column
+
+Record 156548: Rejected - Error on table CUST_REMEDY, column SERIAL_ID.
+ORA-01401: inserted value too large for column
+
+Record 156824: Rejected - Error on table CUST_REMEDY, column SERIAL_ID.
+ORA-01401: inserted value too large for column
+
+Record 157181: Rejected - Error on table CUST_REMEDY, column SERIAL_ID.
+ORA-01401: inserted value too large for column
+
+Record 158027: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 164037: Rejected - Error on table CUST_REMEDY, column EMAIL.
+ORA-01401: inserted value too large for column
+
+Record 167463: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 170179: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 170223: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 170224: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 173622: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 173638: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 176277: Rejected - Error on table CUST_REMEDY, column FIRSTNAME.
+no terminator found after TERMINATED and ENCLOSED field
+Record 177153: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 177358: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 178536: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 192142: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 194924: Rejected - Error on table CUST_REMEDY, column SERIAL_ID.
+ORA-01401: inserted value too large for column
+
+Record 198411: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 198523: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 203376: Rejected - Error on table CUST_REMEDY, column SERIAL_ID.
+ORA-01401: inserted value too large for column
+
+Record 215456: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 219738: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 224974: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 225143: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 225149: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 229566: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 230100: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 230496: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 231150: Rejected - Error on table CUST_REMEDY, column SERIAL_ID.
+ORA-01401: inserted value too large for column
+
+Record 231514: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 232567: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 232811: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 232820: Rejected - Error on table CUST_REMEDY, column SERIAL_ID.
+ORA-01401: inserted value too large for column
+
+Record 233914: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 234673: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 234929: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 238298: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 239534: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 247296: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 255020: Rejected - Error on table CUST_REMEDY, column EMAIL.
+ORA-01401: inserted value too large for column
+
+Record 264817: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 265044: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 273213: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 279341: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 282127: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 286185: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 290945: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 291294: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 295019: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 298791: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 299936: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 301500: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 301942: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 301944: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 302136: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 302191: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 304390: Rejected - Error on table CUST_REMEDY, column SERIAL_ID.
+ORA-01401: inserted value too large for column
+
+Record 304588: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 308530: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+Record 315698: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 316385: Rejected - Error on table CUST_REMEDY, column LAST_CHANGED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+Record 325825: Rejected - Error on table CUST_REMEDY, column EMAIL.
+no terminator found after TERMINATED and ENCLOSED field
+
+Table CUST_REMEDY:
+  327017 Rows successfully loaded.
+  143 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 254388 bytes(58 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:        327160
+Total logical records rejected:       143
+Total logical records discarded:        0
+
+Run began on Fri Jun 08 19:25:59 2007
+Run ended on Fri Jun 08 19:31:32 2007
+
+Elapsed time was:     00:05:32.98
+CPU time was:         00:00:07.50

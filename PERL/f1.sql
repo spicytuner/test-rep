@@ -1,0 +1,10 @@
+update modem set node='HL001A' where account='8313200320238802';                                    
+update modem set node='LL006A' where account='8313200020221280';                                    
+update modem set node='SH006A' where account='8313300820114915';                                    
+update modem set node='SH004A' where account='8313300810277300';                                    
+update modem set node='BU093A' where account='8313200170416888';                                    
+update modem set node='BO047A' where account='8313200110542249';                                    
+update modem set node='MI056A' where account='8313200420196876';                                    
+update modem set node='HL038A' where account='8313200320234462';                                    
+update modem set node='SH003A' where account='8313300820113255';                                    
+update modem set node='SH004B' where account='8313300810287721';                                    

@@ -1,0 +1,49 @@
+select distinct substr(a.cmmac, 1,2)||':'||substr(a.cmmac,3,2)||':'||substr(a.cmmac,5,2)||':'||
+        substr(a.cmmac, 7,2)||':'||substr(a.cmmac,9,2)||':'||substr(a.cmmac,11,2), a.node, a.devicetype,
+        null,null,null, nvl(a.mtafqdn,null),substr(a.mtamac, 1,2)||':'||substr(a.mtamac,3,2)||':'||substr(a.mtamac,5,2)||':'||
+        substr(a.mtamac, 7,2)||':'||substr(a.mtamac,9,2)||':'||substr(a.mtamac,11,2),
+        a.firstname, a.lastname, null,replace(a.street1,',',null), a.street2, a.city, a.state,
+        a.zip, a.accountnumber, null, min(a.phone), max(c.phone), a.cmsfqdn, a.cmts, nvl(a.mta_ip_address,null), b.prov
+        from cust a, cmts_to_prov b, cust c
+        where a.cmts=b.cmts(+)
+        and b.prov = 'mlsmt001aus'
+        and a.devicetype='MTA'
+        and a.mtafqdn is not null
+        and a.mtafqdn=c.mtafqdn
+        group by substr(a.cmmac, 1,2)||':'||substr(a.cmmac,3,2)||':'||substr(a.cmmac,5,2)||':'||
+        substr(a.cmmac, 7,2)||':'||substr(a.cmmac,9,2)||':'||substr(a.cmmac,11,2), a.node, a.devicetype,
+        null,null,null, nvl(a.mtafqdn,null),substr(a.mtamac, 1,2)||':'||substr(a.mtamac,3,2)||':'||substr(a.mtamac,5,2)||':'||
+        substr(a.mtamac, 7,2)||':'||substr(a.mtamac,9,2)||':'||substr(a.mtamac,11,2),
+        a.firstname, a.lastname, null,replace(a.street1,',',null), a.street2, a.city, a.state,
+        a.zip, a.accountnumber, null,  a.cmsfqdn, a.cmts, nvl(a.mta_ip_address,null), b.prov
+        having count(distinct a.phone) > 1
+        union
+        select substr(a.cmmac, 1,2)||':'||substr(a.cmmac,3,2)||':'||substr(a.cmmac,5,2)||':'||
+        substr(a.cmmac, 7,2)||':'||substr(a.cmmac,9,2)||':'||substr(a.cmmac,11,2), a.node, a.devicetype,
+        null,null,null, nvl(a.mtafqdn,null),substr(a.mtamac, 1,2)||':'||substr(a.mtamac,3,2)||':'||substr(a.mtamac,5,2)||':'||
+        substr(a.mtamac, 7,2)||':'||substr(a.mtamac,9,2)||':'||substr(a.mtamac,11,2),
+        a.firstname, a.lastname, null,replace(a.street1,',',null), a.street2, a.city, a.state,
+        a.zip, a.accountnumber, null, min(a.phone), null, a.cmsfqdn, a.cmts, nvl(a.mta_ip_address,null), b.prov
+        from cust a, cmts_to_prov b
+        where a.cmts=b.cmts(+)
+        and b.prov = 'mlsmt001aus'
+        and a.devicetype='MTA'
+        and a.mtafqdn is not null
+        group by substr(a.cmmac, 1,2)||':'||substr(a.cmmac,3,2)||':'||substr(a.cmmac,5,2)||':'||
+        substr(a.cmmac, 7,2)||':'||substr(a.cmmac,9,2)||':'||substr(a.cmmac,11,2), a.node, a.devicetype,
+        null,null,null, nvl(a.mtafqdn,null),substr(a.mtamac, 1,2)||':'||substr(a.mtamac,3,2)||':'||substr(a.mtamac,5,2)||':'||
+        substr(a.mtamac, 7,2)||':'||substr(a.mtamac,9,2)||':'||substr(a.mtamac,11,2),
+        a.firstname, a.lastname, null,replace(a.street1,',',null), a.street2, a.city, a.state,
+        a.zip, a.accountnumber, null, null, a.cmsfqdn, a.cmts, nvl(a.mta_ip_address,null), b.prov
+        having count(distinct a.phone) = 1
+        union
+        select substr(cmmac, 1,2)||':'||substr(cmmac,3,2)||':'||substr(cmmac,5,2)||':'||
+        substr(cmmac, 7,2)||':'||substr(cmmac,9,2)||':'||substr(cmmac,11,2), node, devicetype,
+        null,null,null,null,
+        null,
+        firstname, lastname, null,replace(street1,',',null), street2, city, state,
+        zip, accountnumber, null, phone, null, cmsfqdn, a.cmts, null, b.prov
+        from cust a, cmts_to_prov b
+        where a.cmts=b.cmts(+)
+        and b.prov = 'mlsmt001aus'
+        and a.devicetype='CM'

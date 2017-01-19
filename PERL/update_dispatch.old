@@ -1,0 +1,91 @@
+#!/usr/bin/perl
+
+# Author: Joe Soria
+# Date: July 23, 2007
+#
+# This script will update the Dispatches table in remrep 
+
+push(@INC, "/home/jsoria/SCRIPTS/PERL");
+require 'serv_info.pl';
+
+use DBI;
+use strict;
+
+$ENV{'ORACLE_HOME'}="/home/oracle/OraHome1";
+$ENV{'ORACLE_BASE'}="/home/oracle";
+
+#Define your variables
+my(@database,$database,$contact,$domain,$test,$usr,$passwd,$sid,$dbh,$sth,$sth2,
+$dbname,$job,$what,$EXIT);
+ # Exit 0 = good 1 = critical
+$EXIT = 0;
+@database=qw(remrep);
+$contact='jsoria';
+$domain='bresnan.com';
+$test='2';
+$usr="";
+$passwd="";
+
+($usr,$passwd,$sid)=&serv_info($test);
+
+foreach $database(@database) 
+	{
+
+	$dbh = DBI->connect("dbi:Oracle:$database",$usr,$passwd) || die "Cannot establish connection to the database";
+	$dbh->{RaiseError}=1;
+
+	
+	$sth2=$dbh->prepare(q{insert into dispatches
+	(submitter,create_date,assigned_to,last_modified_by,modified_date,status,description,related_incident_id,
+	work_order_id,start_date,end_date,wo_status,field_technician,customer_id,job_number)
+	select submitter,
+	to_char(NEW_TIME(to_date('01/01/1970 00:00:00')+create_date/86400,'GMT','MST'),'MM/DD/YYYY hh24:mi:ss') as create_date,
+	assigned_to, last_modified_by,
+	to_char(NEW_TIME(to_date('01/01/1970 00:00:00')+modified_date/86400,'GMT','MST'),'MM/DD/YYYY hh24:mi:ss') as modified_date,
+	null,description,incident_id, work_order_id,
+	to_char(NEW_TIME(to_date('01/01/1970 00:00:00')+dispatch_start_date/86400,'GMT','MST'),'MM/DD/YYYY hh24:mi:ss') as start_date,
+	to_char(NEW_TIME(to_date('01/01/1970 00:00:00')+dispatch_end_date/86400,'GMT','MST'),'MM/DD/YYYY hh24:mi:ss') as end_date,
+	wo_status, field_technician, account_number, job_number
+	from aradmin.bz_incident@remprd
+	where to_char(NEW_TIME(to_date('01/01/1970 00:00:00')+create_date/86400,'GMT','MST'),'MM/DD/YYYY hh24:mi:ss') > (select max(create_date) 
+	from dispatches)
+	and (work_order_id is not null
+	or job_number is not null)});
+	$sth2->execute();
+
+	$sth=$dbh->prepare(q{
+	update dispatches b set 
+        (work_order_id, job_number, assigned_to,last_modified_by,modified_date,status,
+	start_date,end_date,field_technician)=
+        (
+        select distinct a.work_order_id, a.job_number, a.assigned_to,a.last_modified_by,
+        to_char(to_date('01/01/1970 00:00:00')+a.modified_date/86400,'MM/DD/YYYY hh24:mi:ss'),
+        a.wo_status,
+        to_char(to_date('01/01/1970 00:00:00')+a.dispatch_start_date/86400,'MM/DD/YYYY hh24:mi:ss'),
+        to_char(to_date('01/01/1970 00:00:00')+a.dispatch_end_date/86400,'MM/DD/YYYY hh24:mi:ss'),
+        a.field_technician
+        from aradmin.bz_incident@remprd a
+        where a.incident_id=b.related_incident_id
+        and a.work_order_id is not null
+        and a.job_number is not null
+	and a.create_date > '1267660824'
+        )
+        where exists 
+        (
+        select distinct a.work_order_id, a.job_number, a.assigned_to,a.last_modified_by,
+        to_char(to_date('01/01/1970 00:00:00')+a.modified_date/86400,'MM/DD/YYYY hh24:mi:ss'),
+        a.wo_status,
+        to_char(to_date('01/01/1970 00:00:00')+a.dispatch_start_date/86400,'MM/DD/YYYY hh24:mi:ss'),
+        to_char(to_date('01/01/1970 00:00:00')+a.dispatch_end_date/86400,'MM/DD/YYYY hh24:mi:ss'),
+        a.field_technician
+        from aradmin.bz_incident@remprd a, dispatches b
+        where a.incident_id=b.related_incident_id
+        and a.work_order_id is not null
+        and a.job_number is not null
+	and a.create_date > '1267660824'
+	and b.create_date > trunc(sysdate-30)
+        )
+        });
+	$sth->execute();
+	}
+exit($EXIT)

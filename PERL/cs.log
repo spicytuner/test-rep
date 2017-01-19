@@ -1,0 +1,50 @@
+
+Connected to: Oracle9i Enterprise Edition Release 9.2.0.6.0 - 64bit Production
+With the Partitioning, OLAP and Oracle Data Mining options
+JServer Release 9.2.0.6.0 - Production
+
+Export file created by EXPORT:V09.02.00 via conventional path
+import done in US7ASCII character set and AL16UTF16 NCHAR character set
+. importing MASTERM's objects into MASTERM
+. . importing table                "CUSTOMER_INFO"     651870 rows imported
+. . importing table                     "HSI_INFO"     175420 rows imported
+. . importing table                   "VIDEO_INFO"     440045 rows imported
+. . importing table                    "TECH_INFO"          0 rows imported
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE TRIGGER "MASTERM".ciremedy_id_trig"
+ "before insert on customer_info"
+ "for each row"
+ "begin"
+ "if :old.remedy_id is null"
+ "then select ciremedy_id_seq.nextval into :new.remedy_id from dual;"
+ "end if;"
+ "end;"
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE TRIGGER "MASTERM".hiremedy_id_trig"
+ "before insert on hsi_info"
+ "for each row"
+ "begin"
+ "if :old.remedy_id is null"
+ "then select hiremedy_id_seq.nextval into :new.remedy_id from dual;"
+ "end if;"
+ "end;"
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE TRIGGER "MASTERM".viremedy_id_trig"
+ "before insert on video_info"
+ "for each row"
+ "begin"
+ "if :old.remedy_id is null"
+ "then select viremedy_id_seq.nextval into :new.remedy_id from dual;"
+ "end if;"
+ "end;"
+IMP-00041: Warning: object created with compilation warnings
+ "CREATE TRIGGER "MASTERM".tiremedy_id_trig"
+ "before insert on tech_info"
+ "for each row"
+ "begin"
+ "if :old.remedy_id is null"
+ "then select tiremedy_id_seq.nextval into :new.remedy_id from dual;"
+ "end if;"
+ "end;"
+About to enable constraints...
+Import terminated successfully with warnings.

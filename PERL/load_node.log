@@ -1,0 +1,22 @@
+Eliminating old Account_node_status data
+Using SQLLDR to Insert New Data into ACCOUNT_NODE_STATUS
+Grabbing True CMTS Information from MySQL
+connecting to mysql
+truncating cmmac_to_cmts table
+fetching data from mysql
+Eliminating cust_auspice_new Data
+Inserting data into cust_auspice_new
+Updating MTA device types in cust_auspice_new
+Updating CM device types in cust_auspice_new
+Eliminating cust_backup
+Backing up the Current CUST Data
+Dropping Cust Synonym
+Pointing User to cust_backup
+Eliminating CUST Data
+Inserting New Data into CUST
+Updating Transponders
+Updating RFTools
+Dropping Public Synonym Cust
+Pointing Users back to Cust
+Finished with initial CUST LOAD
+Auspice Update Complete!!!

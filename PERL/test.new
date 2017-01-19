@@ -1,0 +1,42 @@
+#!/usr/bin/perl
+
+# Author: Joe Soria
+# Date: May 15, 2007
+#
+# This script builds the cust table in remrep, prepares the data for Auspice,
+# inserts the data from cust into the Correlated Device Inventory 
+
+push(@INC, "/home/jsoria/SCRIPTS/PERL");
+push(@INC,"/home/jsoria/SCRIPTS/DATA");
+require 'serv_info.pl';
+#require 'updateVSM.pl';
+
+use DBI;
+use strict;
+use Spreadsheet::WriteExcel;
+use Getopt::Long;
+#use warnings;
+use Data::Dumper;
+
+$ENV{'ORACLE_SID'}="remrep";
+$ENV{'ORACLE_HOME'}="/home/oracle/OraHome1";
+$ENV{'ORACLE_BASE'}="/home/oracle";
+
+my($cm,$test,$usr,$passwd,$sid,$host,$sth9,$cmmac,$mta_ip,$cmts,$dbh2,$nmsuser,$nmspass);
+
+        $test='6';
+
+        ($usr,$passwd,$sid)=&serv_info($test);
+        $nmsuser=$usr;
+        $nmspass=$passwd;
+
+        print STDOUT "connecting to mysql\n";
+
+        $dbh2 = DBI->connect("dbi:mysql:database=VSM_Billings:$sid", $nmsuser, $nmspass) ||  
+	die "Can't connect to nms2!";
+
+	print STDOUT "connected\n";
+
+$dbh2->disconnect;
+	print STDOUT "disconnected\n";
+

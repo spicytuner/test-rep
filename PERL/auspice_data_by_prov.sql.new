@@ -1,0 +1,56 @@
+spool ausplice_cust.log
+truncate table cust_backup;
+drop table cust_backup;
+create table cust_backup as select * from cust ;
+
+truncate table cust;
+drop table cust;
+
+--create table cust as select distinct a.accountnumber, a.node, a.firstname, a.lastname, a.phone, 
+--a.street1, a.street2, a.city,a.state,a.zip, a.cmmac, a.service_type, a.mtafqdn, a.mtamac, 
+--a.cmsfqdn, a.mta_vendor, a.imagefile, a.cmts, a.last_changed, a.video, a.data, a.bdp, 
+--a.devicetype, a.packageid 
+--from cust_auspice_new a;
+--
+--commit;
+
+create table cust as select distinct a.accountnumber, a.node, a.firstname, a.lastname, a.phone, 
+a.street1, a.street2, a.city,a.state,a.zip, a.cmmac, a.service_type, a.mtafqdn, a.mtamac, 
+a.cmsfqdn, a.mta_vendor, a.imagefile, b.cmts, a.last_changed, a.video, a.data, a.bdp, 
+a.devicetype, a.packageid, b.mta_ip_address
+from cust_auspice_new a, cmmac_to_cmts b
+where upper(a.cmmac)=upper(b.cmmac);
+
+commit;
+
+grant select on cust to public;
+create public synonym cust for masterm.cust;
+
+create index cust_acctnum on cust (accountnumber);
+create index cust_phone on cust(phone);
+
+analyze index cust_acctnum validate structure;
+analyze index cust_phone validate structure;
+analyze table cust estimate statistics;
+
+update cust set node='trans' where imagefile like '%ransp%';
+commit;
+
+update cust set node='RFTOOLS' where imagefile like '%RFT%';
+commit;
+
+--update cust a
+--set a.cmts=(select new_cmts
+--from cmts_ass
+--where a.cmts=old_cmts)
+--where a.cmts in (select distinct old_cmts from cmts_ass);
+
+update cust a
+set a.cmsfqdn=(select b.cms from cmts_cms_map b
+where a.cmts=b.cmts)
+where bdp=1;
+
+commit ;
+
+spool off
+exit;

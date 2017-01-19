@@ -1,0 +1,715 @@
+
+SQL*Loader: Release 9.2.0.4.0 - Production on Thu Sep 20 16:48:06 2007
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+Control File:   customerinfo.ctl
+Data File:      customerinfo.dat
+  Bad File:     customerinfo.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 10000
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table CUSTOMER_INFO, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ACCOUNTNUMBER                       FIRST     *   ,  O(") CHARACTER            
+NODE                                 NEXT     *   ,  O(") CHARACTER            
+LASTNAME                             NEXT     *   ,  O(") CHARACTER            
+FIRSTNAME                            NEXT     *   ,  O(") CHARACTER            
+PHONE                                NEXT     *   ,  O(") CHARACTER            
+STREET1                              NEXT     *   ,  O(") CHARACTER            
+STREET2                              NEXT     *   ,  O(") CHARACTER            
+CITY                                 NEXT     *   ,  O(") CHARACTER            
+STATE                                NEXT     *   ,  O(") CHARACTER            
+ZIP                                  NEXT     *   ,  O(") CHARACTER            
+LAST_CHANGED                         NEXT     *   ,  O(") DATE MM/DD/YYYY hh24:mi:ss
+
+Record 12: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 22: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 50: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 55: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 58: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 83: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 88: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 110: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 117: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 119: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 130: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 139: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 150: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 184: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 235: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 279: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 282: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 286: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 335: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 336: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 337: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 396: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 397: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 411: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 429: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 440: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 452: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 509: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 519: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 530: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 531: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 552: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 570: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 611: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 612: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 637: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 638: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 643: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 647: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 682: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 691: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 700: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 735: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 740: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 772: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 787: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 793: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 814: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 816: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 834: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 860: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 865: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 872: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 887: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 908: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 913: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 937: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 954: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1018: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1025: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1048: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1123: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1134: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1155: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1212: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1216: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1232: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1268: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1273: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1301: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1307: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1329: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1371: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1392: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1422: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1448: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1504: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1539: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1570: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1624: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1656: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1695: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1763: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1776: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1790: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1811: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1813: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1865: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1870: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1891: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1942: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1945: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1946: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 1947: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2040: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2084: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2118: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2134: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2222: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2227: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2240: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2264: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2274: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2290: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2293: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2345: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2347: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2364: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2368: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2377: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2382: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2404: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2420: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2470: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2536: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2560: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2564: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2566: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2649: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2671: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2738: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2741: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2770: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2811: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2892: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2913: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2920: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2950: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2980: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2986: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2989: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 2996: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3007: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3026: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3027: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3028: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3029: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3030: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3031: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3032: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3082: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3083: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3084: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3092: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3129: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3179: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3213: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3303: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3323: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3376: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3381: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3434: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3489: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3546: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3627: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3655: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3765: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3773: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3818: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3819: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3860: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3862: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3864: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3875: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 3960: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4027: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4028: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4043: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4085: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4151: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4152: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4159: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4173: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4180: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4189: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4193: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4195: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4203: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4232: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4233: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4250: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4364: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4477: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4482: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4626: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4629: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4630: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4638: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4690: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4696: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4720: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4739: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4815: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4850: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4860: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4869: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4879: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4963: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4967: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4968: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4972: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 4994: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 5073: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 5074: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 5075: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 5080: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 5091: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 5135: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 5143: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 5148: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 5167: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 5191: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 5276: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 5325: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 5327: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 5347: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 5378: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 5448: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+Record 5489: Rejected - Error on table CUSTOMER_INFO.
+ORA-00001: unique constraint (MASTERM.PK_CUSTOMER_INFO) violated
+
+
+Table CUSTOMER_INFO:
+  5288 Rows successfully loaded.
+  219 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 181632 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:          5507
+Total logical records rejected:       219
+Total logical records discarded:        0
+
+Run began on Thu Sep 20 16:48:06 2007
+Run ended on Thu Sep 20 16:48:25 2007
+
+Elapsed time was:     00:00:19.01
+CPU time was:         00:00:00.30

@@ -1,0 +1,60 @@
+
+SQL*Loader: Release 9.2.0.4.0 - Production on Tue Jan 23 10:41:44 2007
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+Control File:   account_node2.ctl
+Data File:      ACCOUNT_NODE_STATUS.txt
+  Bad File:     ACCOUNT_NODE_STATUS.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50000
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table ACCOUNT_NODE_STATUS, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ACCOUNTNUMBER                       FIRST     *   ,  O(") CHARACTER            
+NODE                                 NEXT     *   ,  O(") CHARACTER            
+LAST_MODIFIED                        NEXT     *   ,  O(") CHARACTER            
+STATUS                               NEXT     *   ,  O(") CHARACTER            
+MACADDRESS                           NEXT     *   ,  O(") CHARACTER            
+
+Record 1: Rejected - Error on table ACCOUNT_NODE_STATUS, column LAST_MODIFIED.
+ORA-01858: a non-numeric character was found where a numeric was expected
+
+SQL*Loader-604: Error occurred on an attempt to commit
+ORA-01013: user requested cancel of current operation
+
+SQL*Loader-2026: the load was aborted because SQL Loader cannot continue.
+Specify SKIP=25520 when continuing the load.
+
+Table ACCOUNT_NODE_STATUS:
+  25519 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  82560 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:         25584
+Total logical records rejected:         1
+Total logical records discarded:        0
+
+Run began on Tue Jan 23 10:41:44 2007
+Run ended on Tue Jan 23 10:41:51 2007
+
+Elapsed time was:     00:00:07.14
+CPU time was:         00:00:00.32

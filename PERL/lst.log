@@ -1,0 +1,49 @@
+
+SQL*Loader: Release 9.2.0.4.0 - Production on Mon Mar 17 15:09:13 2008
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+Control File:   lst.ctl
+Data File:      lst.dat
+  Bad File:     lst.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table CC_LST, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ACCOUNTNUMBER                       FIRST     *   ,  O(") CHARACTER            
+
+Record 9726: Discarded - all columns null.
+
+Table CC_LST:
+  9725 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  1 Row not loaded because all fields were null.
+
+
+Space allocated for bind array:                  16512 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:          9726
+Total logical records rejected:         0
+Total logical records discarded:        1
+
+Run began on Mon Mar 17 15:09:13 2008
+Run ended on Mon Mar 17 15:09:17 2008
+
+Elapsed time was:     00:00:03.98
+CPU time was:         00:00:00.07

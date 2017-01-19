@@ -1,0 +1,112 @@
+
+SQL*Loader: Release 9.2.0.4.0 - Production on Thu May 29 12:21:44 2014
+
+Copyright (c) 1982, 2002, Oracle Corporation.  All rights reserved.
+
+Control File:   /home/jsoria/SCRIPTS/PERL/chinook.ctl
+Data File:      A72419843.DAT
+  Bad File:     /home/jsoria/SCRIPTS/PERL/A72419843.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50000
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+Silent options: FEEDBACK
+Table QWEST_MAY_2014, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+CALL_SERVICE_TYPE                     1:2     2   ,       CHARACTER            
+COMPONENT_GROUP_CD                    3:4     2   ,       CHARACTER            
+COMPONENT_GRP_VAL                    5:28    24   ,       CHARACTER            
+PRODUCT_ACCT_ID                     29:40    12   ,       CHARACTER            
+CUSTOMER_NUMBER                     41:50    10   ,       CHARACTER            
+ORIG_DT                             51:58     8   ,       CHARACTER            
+DISCN_DT                            59:66     8   ,       CHARACTER            
+ORIG_TIME                           67:72     6   ,       CHARACTER            
+DISCN_TIME                          73:78     6   ,       CHARACTER            
+CALL_DURATION_MINUTES               79:83     5   ,       CHARACTER            
+CALL_DURATION_SECONDS               84:85     2   ,       CHARACTER            
+DIALEDNO                           86:100    15   ,       CHARACTER            
+CALLEDNO                          101:115    15   ,       CHARACTER            
+ANI                               116:130    15   ,       CHARACTER            
+ANSTYPE                           131:136     6   ,       CHARACTER            
+PINDIGS                           137:140     4   ,       CHARACTER            
+INFODIG                           141:142     2   ,       CHARACTER            
+SURCHARGE                         143:143     1   ,       CHARACTER            
+COMPCODE                          144:149     6   ,       CHARACTER            
+PREDIG                            150:150     1   ,       CHARACTER            
+TRTMTCD                           151:156     6   ,       CHARACTER            
+ORIG_TRUNK_GROUP_NAME             157:168    12   ,       CHARACTER            
+ORIGMEM                           169:174     6   ,       CHARACTER            
+TERM_TRUNK_GROUP_NAME             175:186    12   ,       CHARACTER            
+TERMMEM                           187:192     6   ,       CHARACTER            
+INTRA_LATA_IND                    193:193     1   ,       CHARACTER            
+CALL_AREA                         194:194     1   ,       CHARACTER            
+CITY_CALLING                      195:204    10   ,       CHARACTER            
+STATE_CALLING                     205:206     2   ,       CHARACTER            
+CITY_CALLED                       207:216    10   ,       CHARACTER            
+STATE_CALLED                      217:218     2   ,       CHARACTER            
+RATE_PERIOD                       219:219     1   ,       CHARACTER            
+TERMINATING_COUNTRY_CODE          220:223     4   ,       CHARACTER            
+ORIGINATING_COUNTRY_CODE          224:227     4   ,       CHARACTER            
+PAC_CODES                         228:239    12   ,       CHARACTER            
+ORIG_PRICING_NPA                  240:242     3   ,       CHARACTER            
+ORIG_PRICING_NXX                  243:245     3   ,       CHARACTER            
+TERM_PRICING_NPA                  246:248     3   ,       CHARACTER            
+TERM_PRICING_NXX                  249:251     3   ,       CHARACTER            
+AUTHORIZATION_CODE_FULL           252:265    14   ,       CHARACTER            
+UNIVACC                           266:275    10   ,       CHARACTER            
+PRCMP_ID                          276:281     6   ,       CHARACTER            
+CARRSEL                           282:282     1   ,       CHARACTER            
+CIC                               283:288     6   ,       CHARACTER            
+ORIGLRN                           289:298    10   ,       CHARACTER            
+PORTEDNO                          299:308    10   ,       CHARACTER            
+LNPCHECK                          309:309     1   ,       CHARACTER            
+ORIGINATING_IDDD_CITY_CODE        310:310     1   ,       CHARACTER            
+TERMINATING_IDDD_CITY_CODE        318:325     8   ,       CHARACTER            
+ORIGINATING_LATA                  326:329     4   ,       CHARACTER            
+TERMINATING_LATA                  330:333     4   ,       CHARACTER            
+CLASS_TYPE                        334:335     2   ,       CHARACTER            
+MEXICO_RATE_STEP                  336:337     2   ,       CHARACTER            
+ESTIMATED_CHARGE                  338:343     6   ,       CHARACTER            
+BILLING_OCN                       344:347     4   ,       CHARACTER            
+ORIG_TERM_CODE                    348:348     1   ,       CHARACTER            
+CLGPTYNO                          349:363    15   ,       CHARACTER            
+CLGPTYNO_IDENTIFIER               364:364     1   ,       CHARACTER            
+ORIG_OCN                          365:368     4   ,       CHARACTER            
+TERM_OCN                          369:372     4   ,       CHARACTER            
+UNROUNDED_PRICE                   373:382    10   ,       CHARACTER            
+RATE_PER_MINUTE                   383:390     8   ,       CHARACTER            
+FINSID                            391:396     6   ,       CHARACTER            
+FINAL_TRUNK_GROUP_NAME            397:408    12   ,       CHARACTER            
+CARRIAGE_RETURN                   409:409     1   ,       CHARACTER            
+
+
+Table QWEST_MAY_2014:
+  755669 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  35328 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:        755669
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Thu May 29 12:21:44 2014
+Run ended on Thu May 29 12:25:01 2014
+
+Elapsed time was:     00:03:16.66
+CPU time was:         00:00:15.86

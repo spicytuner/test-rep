@@ -1,0 +1,9 @@
+LOAD DATA
+INFILE lst.dat
+INTO TABLE cc_lst insert
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+TRAILING NULLCOLS
+(
+accountnumber
+)

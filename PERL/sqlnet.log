@@ -1,0 +1,233 @@
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SID=*)(SERVICE_NAME=ora1.bresnan.net)(CID=(PROGRAM=)(HOST=san2)(USER=jsoria)))(ADDRESS=(PROTOCOL=TCP)(HOST=ora1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 9.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 9.2.0.4.0 - Production
+  Time: 14-DEC-2006 14:49:54
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SID=*)(SERVICE_NAME=ora1.bresnan.net)(CID=(PROGRAM=)(HOST=san2)(USER=jsoria)))(ADDRESS=(PROTOCOL=TCP)(HOST=ora1)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 9.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 9.2.0.4.0 - Production
+  Time: 11-JAN-2007 07:31:23
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=blnmt003svora)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=remrep.bresnan.com)(CID=(PROGRAM=)(HOST=san2)(USER=jsoria))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 9.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 9.2.0.4.0 - Production
+  Time: 05-FEB-2007 10:11:04
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 111
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=172.18.242.44)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=remdev.bresnan.com)(CID=(PROGRAM=)(HOST=san2)(USER=jsoria))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 9.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 9.2.0.4.0 - Production
+  Time: 15-JUN-2007 10:54:27
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 110
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=69.145.254.181)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=sle0.bresnan.net)(CID=(PROGRAM=)(HOST=san2)(USER=jsoria))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 9.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 9.2.0.4.0 - Production
+  Time: 17-JUL-2007 15:15:30
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=69.145.254.181)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=sle0.ellacoya.com)(CID=(PROGRAM=)(HOST=san2)(USER=jsoria))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 9.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 9.2.0.4.0 - Production
+  Time: 17-JUL-2007 15:17:02
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=69.145.254.181)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=oradb.bresnan.com)(CID=(PROGRAM=)(HOST=san2)(USER=jsoria))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 9.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 9.2.0.4.0 - Production
+  Time: 17-JUL-2007 15:33:50
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SID=*)(SERVICE_NAME=REMREP.BRESNAN.NET)(CID=(PROGRAM=)(HOST=san2)(USER=jsoria)))(ADDRESS=(PROTOCOL=TCP)(HOST=REMREP.BRESNAN.NET)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 9.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 9.2.0.4.0 - Production
+  Time: 03-OCT-2008 15:58:39
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 110
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=blnmt002svora)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=raytrace.bresnan.com)(CID=(PROGRAM=)(HOST=san2)(USER=jsoria))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 9.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 9.2.0.4.0 - Production
+  Time: 24-APR-2009 09:43:24
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=blnmt002svora)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=raytrace.bresnan.com)(CID=(PROGRAM=)(HOST=san2)(USER=jsoria))))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 9.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 9.2.0.4.0 - Production
+  Time: 24-APR-2009 09:43:30
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12564
+    TNS-12564: TNS:connection refused
+    ns secondary err code: 0
+    nt main err code: 0
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SID=*)(SERVICE_NAME=scripts.bresnan.net)(CID=(PROGRAM=)(HOST=san2)(USER=jsoria)))(ADDRESS=(PROTOCOL=TCP)(HOST=scripts)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 9.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 9.2.0.4.0 - Production
+  Time: 06-MAY-2011 08:52:07
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 110
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SID=*)(SERVICE_NAME=remerp.bresnan.net)(CID=(PROGRAM=)(HOST=san2)(USER=jsoria)))(ADDRESS=(PROTOCOL=TCP)(HOST=remerp)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Linux: Version 9.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Linux: Version 9.2.0.4.0 - Production
+  Time: 18-MAY-2011 13:25:09
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 110
+    nt OS err code: 0

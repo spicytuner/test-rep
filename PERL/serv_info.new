@@ -1,0 +1,2 @@
+#!/usr/bin/perl
+sub OO0O0{my($OOOO0)=@_;my($OO,$OOOO,$OO0O00,$OO0,$OO00O0,$OO0O);open(LIST,"\x2f\x68\x6f\x6d\x65\x2f\x6a\x73\x6f\x72\x69\x61\x2f\x53\x43\x52\x49\x50\x54\x53\x2f\x4c\x4f\x47\x2f\x2e\x73\x65\x72\x76\x5f\x69\x6e\x66\x6f\x2e\x74\x78\x74");while($OO=<LIST>){chomp($OO);($OOOO,$OO0O00,$OO0,$OO00O0,$OO0O)=split(/\,/,$OO);if($OOOO0 eq $OOOO){@OO0O0=($OO0O00,$OO0,$OO00O0,$OO0O);last;}}close(LIST);return(@OO0O0);}1;
